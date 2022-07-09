@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+h1{
+ font-family: 'Rubik Moonrocks';
+ color: red;
+ background: black;
+ font-weight: bold;
+text-align: center;
+text-shadow: 5px 5px 3px blue;
+}
+h2{
+	 color: red;
+ background: black;
+ font-weight: bold;
+text-align: center;
+}
+p{
+ color: blue;
+ background: black;
+ font-weight: bold;
+ text-align: left; 
+ }
+table {
+	border: 1px solid silver;
+}
+td:hover {
+	background-color: black;
+	color: red;
+}
+tr, th{
+	background-color: blue;
+	color: red;
+}
+tr, th {
+	background-color: black;
+	color: red;
+}
+tr, td {
+	background-color: black;
+	color: blue;
+}
+ol{
+	list-style-type: upper-roman;
+	background: black;
+	color: blue;
+	text-align: left; 
+}
+ul {
+	list-style-type: square;
+	background: black;
+	color: blue;
+	text-align: left; 
+}
