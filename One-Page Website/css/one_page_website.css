@@ -10,6 +10,67 @@ body{
     background-color:#0e42b3;
    color: #cc0000;
 }
+h3,p{
+    color:#fff
+}
+
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10 5;
+    border: 1px solid #021a40;
+    background-color: rgb(177, 29, 0);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+.photo-container {
+    text-align:center;
+    margin: 15px 10px 20px;
+    width: 250px;
+    height: 169px;
+}
+.photo-container img{
+    max-width: 100%;
+    width: 200px;
+    height: 169px;
+}
+
+photo-overlay {
+    color: #fff
+    position: absolute;
+    top: 2px; 
+    right: 2px;
+    bottom: 2 px;
+    left: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+   align-items: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.white-head {
+    color:#c9BDAA;
+    margin-top: 5%;
+    line-height: 30px;
+    padding-bottom:20px;
+}
+
+
+.photo img{
+    transition: transfrom .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img{
+    transform: scale(1.1);
+}
+.video{
+    padding-top: 15px;
+}
+
 /*----------------------------
 CONTACT Styles
 -------------------------------*/
@@ -38,7 +99,8 @@ CONTACT Styles
 }
 
 .Membership h2 {
-    width: 70%;
+    width: 7
+    70%;
     text-align: center;
     margin: 0 auto;
     color: #cc0000;
@@ -72,7 +134,7 @@ CONTACT Styles
     font-weight: 600;
     color: #0e42b3;
     padding: 12px 12px;
-    width: 70%;
+    width: 50%;
     border: 1px solid #cc0000;
     margin:2% auto;
     border-radius: 7px;
@@ -80,6 +142,7 @@ CONTACT Styles
     box-shadow: 2px 3px, 3px, 0px, rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
+
 
 .membership input[type="text"]{
     font-size:15px;
@@ -93,7 +156,7 @@ CONTACT Styles
     border-bottom:2px solid #c8198b;
     border-left: 1px solid #920692;
     margin:10px 1em;
-    border-radius: 7px;
+    border-radius: px;
     background:#0e42b3;
     box-shadow:inset 0px 3px 0px 0px rgba(133, 2, 120, 0.15);
     font-family:'Raleway', sans-serif;
